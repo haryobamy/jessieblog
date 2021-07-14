@@ -1,0 +1,30 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+// variables
+
+@import 'jessie-ui/variables';
+
+
+//components
+@import "jessie-ui/navbar";
+@import "jessie-ui/header";
+@import "jessie-ui/welcome";
+@import "jessie-ui/blog";
+
+
+*{
+    margin: 0;
+    // font-family: 'Roboto', sans-serif;
+    // background: $background-color;
+}
+
+.blogHeader {
+    margin-bottom: 20px 10px;
+    color:$text-color;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}

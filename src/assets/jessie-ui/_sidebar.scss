@@ -1,0 +1,184 @@
+.sidebarSection{
+    border: 1px solid gray;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sidebarSection >hr {
+    border: 1px solid gray;
+}
+.whereweare > img {
+    width:300px
+}
+.whereweare > p {
+    color: gray;
+    margin-top: 10px;
+    font-size: 14px;
+    // margin-bottom: -10px;
+}
+.whereweare > h6 {
+    color: gray;
+    margin-top: 20px;
+    
+}
+.whereweare  > hr  {
+    color: 1px solid gray;
+    width: 10%;
+    height: 2px;
+    margin: 5px auto 10px auto;
+    
+}
+.Hello{
+    display: flex;
+    flex-direction: column;
+}
+.Hello > img{
+border-radius: 100%;
+width: 75px;
+height: 75px;
+object-fit: cover;
+margin: auto;
+}
+.Hello > hr  {
+    color: 1px solid gray;
+    width: 10%;
+    height: 2px;
+    margin: 5px auto 10px auto;
+    
+}
+.Hello > p  {
+    color:  gray;
+    font-size: 12x;
+    margin-bottom: 30px;
+    
+}
+.Hello > em  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12x;
+    font-style:  oblique;
+    
+}
+.Hello >div > button{
+    background:rgb(226, 223, 223);
+    border: none;
+}
+
+.trendingPost {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+   
+}
+.trendingPost >hr {
+    color: 1px solid gray;
+    width: 10%;
+    height: 2px;
+    margin: 5px auto 10px auto;
+}
+.trendingPost >img {
+  width: 200px;
+}
+.trendingPost >div >p {
+  color: beige;
+  font-weight: bold;
+  width: 150px;
+  font-size: 16px;
+  margin: auto 25px;
+  
+  
+}
+.trendingPost >div >button {
+  color: beige;
+  font-weight: 500;
+  background-color: transparent;
+ margin-top: 50px;
+  border-radius: 25px;
+  
+  
+}
+.trendingPost > div {
+    position: relative;
+    top: -200px;
+}
+
+.popularPost{
+    margin-top: -130px;
+   
+    
+}
+
+.popularPost >div >img {
+width: 70px;
+height: 70px;
+border-radius: 100%;
+object-fit: cover;
+
+}
+.popularPost > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.popularPost > div >div {
+    width: 150px;
+    
+    text-align: left;
+    
+}
+.popularPost > div >div> p {
+    font-size: 12px;
+    
+    color: gray;
+  
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    
+}
+.buttons > button {
+    margin: 5px auto;
+    background-color:#eeeee4;
+    padding:  5px  100px 5px 100px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.sidebarImage > img{
+width: 120px;
+height: 120px;
+border-radius: 10px;
+margin: 5px;
+object-fit: cover;
+}
+.sidebarImage > hr{
+    color: 1px solid gray;
+    width: 10%;
+    height: 2px;
+    margin: 5px auto 10px auto;
+}
+.sidebarImage > h6{
+    color: gray;
+    
+}
+
+.sidebarImage > div{
+    display: flex;
+
+    // align-items: center;
+    justify-content: center;
+}
+.sidebarImage > div > p{
+   margin-left: 10px;
+   margin-top: 5px;
+}
+.sidebarImage > div > i{
+  
+   margin-top: 8px;
+}

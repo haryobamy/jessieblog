@@ -19,7 +19,7 @@ const Blog = () => {
         <div>
         <Row>
            <Col lg='2'></Col>
-           <Col lg='7' md='12'>
+           <Col lg='7' sm='6'>
                <div className='blog'>
                    <div className='blogPosts'>
                        
@@ -49,13 +49,13 @@ const Blog = () => {
                    <Blogpost bg={bg3} label='Nature of Reality'/>
                    </Col>
                    <Col sm='6'>
-                   <Blogpost bg={bg2} label='Throwing Hands'/>
+                   <Blogpost bg={bg} label='Throwing Hands'/>
                    </Col>
                    <Col sm='6' >
                    <Blogpost bg={bg3} label='Story in a Bottle'/>
                    </Col>
                    <Col sm='6'>
-                   <Blogpost bg={bg2} label='Cultural Expression'/>
+                   <Blogpost bg={bg} label='Cultural Expression'/>
                    </Col>
                    <Col sm='6' >
                    <Blogpost bg={bg3} label='Chasing the Sun'/>
@@ -69,7 +69,7 @@ const Blog = () => {
                </Row>
                
            </Col>
-           <Col lg='3' md='12'>
+           <Col lg='3' sm='6'>
                <Sidebar/>
            </Col>
            </Row>

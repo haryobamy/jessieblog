@@ -113,7 +113,7 @@ font-size: 20px;
 @media screen and (min-width:150px) and (max-width:600px) {
     .blogimg{
         height: 250px;
-        width:70%;
+        width:120%;
         object-fit: cover;
         // margin: 0 -3px 0 2px;
     
@@ -127,8 +127,8 @@ font-size: 20px;
         
     }
     .blogContent {
-        background-color:lightgreen;
-        width: 50%; 
+        background-color:#fff;
+        width: 75%; 
         height: 200px;
         text-align: center;
         position: absolute;
@@ -136,19 +136,19 @@ font-size: 20px;
         left:50px;
      }
      .blogContent > p {
-      font-size: 8px;
+      font-size: 12px;
     
     }
     .blogContent > h2 {
-        font-size: 12px;
+        font-size: 20px;
     }
     
     .blogContent > h6 {
-       font-size: 10px;
+       font-size: 14px;
        margin: 0px 5px;
     }
     .blogContent > em {
-        font-size: 10px;
+        font-size: 14px;
         padding-top: 40px;
     }
     
@@ -156,7 +156,7 @@ font-size: 20px;
         
         margin-top: 170px;
        
-        width: 70%;
+        width: 100%;
         height: 40px;
        
        

@@ -3,7 +3,7 @@ import { HomepageHeader, Headerbar, WelcomeSlider, Blog } from "./components";
 
 const App = () => {
   return (
-    <div className="mx-4 my-3">
+    <div className="mx-4 my-3 App">
       <h1 className="blogHeader display-4 fst-italic">
         <strong>JESSIE</strong>
       </h1>

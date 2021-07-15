@@ -50,7 +50,7 @@ const WelcomeSlider = () => {
         <Col lg="6" md="12">
             
           <div className="sliderImage">
-          <h5 style={{transform:'rotate(270deg)', position:'absolute',bottom:'-25px',left:'660px', fontSize:"10px"}} className='text-dark'>ABOUT</h5>
+          <h5 style={{}} className='text-dark about'>ABOUT</h5>
             <img src={activeimg} alt="" className="activeimg" />
             <div className='sliderimageunactive'>
               <img src={bg1} alt="" className="sliderimg " name='bg1' value={bg1} onMouseOver={handleImage} />

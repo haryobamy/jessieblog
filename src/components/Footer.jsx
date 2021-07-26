@@ -1,60 +1,61 @@
-<div class="collapse navbar-collapse" id="navbarsExample01">
-<ul class="navbar-nav me-auto mb-2">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">
-      Home
-    </a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">
-      Link
-    </a>
-  </li>
-  <li class="nav-item">
-    <a
-      class="nav-link disabled"
-      href="#"
-      tabindex="-1"
-      aria-disabled="true"
-    >
-      Disabled
-    </a>
-  </li>
-  <li class="nav-item dropdown">
-    <a
-      class="nav-link dropdown-toggle"
-      href="#"
-      id="dropdown01"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
-    >
-      Dropdown
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="dropdown01">
-      <li>
-        <a class="dropdown-item" href="#">
-          Action
-        </a>
-      </li>
-      <li>
-        <a class="dropdown-item" href="#">
-          Another action
-        </a>
-      </li>
-      <li>
-        <a class="dropdown-item" href="#">
-          Something else here
-        </a>
-      </li>
-    </ul>
-  </li>
-</ul>
-<form>
-  <input
-    class="form-control"
-    type="text"
-    placeholder="Search"
-    aria-label="Search"
-  />
-</form>
-</div>
+import React from "react";
+import * as FaIcons from "react-icons/fa";
+import * as AiIcons from "react-icons/ai";
+import { Link } from "react-router-dom";
+import { Col, Row } from "reactstrap";
+import bg from "../assets/image/bg3.jpg";
+
+const Footer = () => {
+  return (
+    <>
+      <div className="footer">
+        <div className="footerWrapper">
+          <Row>
+            <Col lg="2" sm="6"></Col>
+            <Col lg="5" sm="6">
+              <div className="footerLeft">
+                <div className="footerText">
+                  <h2>It Just Got Personal</h2>
+                  <hr />
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout{" "}
+                  </p>
+                  <div className="footerInput">
+                    <input type="text" placeholder="Your email here" />
+                    <button>
+                      <AiIcons.AiOutlineSend />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col lg="4" sm="6">
+              <div className="footerRight">
+                <h1>JESSIE</h1>
+                <p>Personal blog</p>
+                <div className="footerLinks">
+                  <Link className="Links">Home</Link>
+                  <Link className="Links">Shop</Link>
+                  <Link className="Links">About</Link>
+                  <Link className="Links">Contact</Link>
+                </div>
+                <div className="socialIcons">
+                  <FaIcons.FaInstagram />
+                  <FaIcons.FaTwitter />
+                  <FaIcons.FaPinterest />
+                  <FaIcons.FaFacebook />
+                </div>
+                <h6>© 2019 - Jessie</h6>
+              </div>
+            </Col>
+            <Col lg="2" sm="6"></Col>
+          </Row>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Footer;

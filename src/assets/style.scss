@@ -9,18 +9,14 @@
 
 //components
 @import "jessie-ui/navbar";
-@import "jessie-ui/header";
 @import "jessie-ui/welcome";
 @import "jessie-ui/blog";
 @import "jessie-ui/sidebar";
+@import "jessie-ui/hero";
+@import 'jessie-ui/footer';
 
 
-*{
-    margin: 0;
-    // font-family: 'Roboto', sans-serif;
-    // background: $background-color;
-    
-}
+
 .App{
     overflow-x: hidden; 
 }
@@ -31,5 +27,19 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    text-decoration: none;
+
+    &:hover{
+        cursor: pointer;
+      color: $text-color;
+    }
     
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: chocolate;
+    color: #fff;
 }

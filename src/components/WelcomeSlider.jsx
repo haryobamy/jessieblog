@@ -1,9 +1,9 @@
 import React from "react";
 import {
- 
+
   Row,
   Col,
-  
+
 } from "reactstrap";
 
 import bg from "../assets/image/bg6.jpg";
@@ -13,14 +13,14 @@ import bg5 from "../assets/image/bg5.jpg";
 
 
 const WelcomeSlider = () => {
-    const [activeimg, setActiveimg] = React.useState(bg);
+  const [activeimg, setActiveimg] = React.useState(bg);
 
-    const handleImage = (e) => {
-        const {name,src} = e.target
-        setActiveimg(src)
-        console.log(name, src)
+  const handleImage = (e) => {
+    const { name, src } = e.target
+    setActiveimg(src)
+    console.log(name, src)
 
-    }
+  }
 
 
 
@@ -40,7 +40,7 @@ const WelcomeSlider = () => {
               post’s contents.
             </p>
             <p className="mb-0 ">
-             
+
               <a className="text-dark fw-bold text-decoration-none" href="#">
                 BE THE FIRST TO KNOW <i className="fa fa-arrow-right"></i>
               </a>
@@ -48,15 +48,15 @@ const WelcomeSlider = () => {
           </div>
         </Col>
         <Col lg="6" md="12">
-            
+
           <div className="sliderImage">
-          <h5 style={{}} className='text-dark about'>ABOUT</h5>
+            <h5 className='text-dark about'>ABOUT</h5>
             <img src={activeimg} alt="" className="activeimg" />
             <div className='sliderimageunactive'>
               <img src={bg1} alt="" className="sliderimg " name='bg1' value={bg1} onMouseOver={handleImage} />
-              <img src={bg5} alt="" className="sliderimg"  name='bg5' value={bg5} onMouseOver={handleImage}/>
-              <img src={bg} alt="" className="sliderimg"  name='bg' value={bg} onMouseOver={handleImage}/>
-              <img src={bg1} alt="" className="sliderimg"  name='bg1' value={bg1} onMouseOver={handleImage} />
+              <img src={bg5} alt="" className="sliderimg" name='bg5' value={bg5} onMouseOver={handleImage} />
+              <img src={bg} alt="" className="sliderimg" name='bg' value={bg} onMouseOver={handleImage} />
+              <img src={bg1} alt="" className="sliderimg" name='bg1' value={bg1} onMouseOver={handleImage} />
             </div>
           </div>
         </Col>

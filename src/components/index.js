@@ -1,6 +1,7 @@
-import Headerbar from "./Headerbar";
-import HomepageHeader from "./HomepageHeader";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import WelcomeSlider from "./WelcomeSlider";
 import Blog from "./blog/Blog";
+import Hero from "./Hero";
 
-export { Headerbar, HomepageHeader, WelcomeSlider, Blog };
+export { Navbar, WelcomeSlider, Blog, Hero, Footer };

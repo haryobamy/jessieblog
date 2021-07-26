@@ -1,0 +1,134 @@
+.footer {
+  background: gray;
+  max-width: 1300px;
+  width: 100%;
+  height: 400px;
+  margin: 40px auto 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  @media screen and (max-width: 400px) {
+    height: 600px;
+  }
+}
+
+.footerLeft {
+  height: 300x;
+
+  margin-right: 150px;
+
+  background-image: url("../image/9.jpeg");
+  width: 350px;
+  height: 300px;
+  border-radius: 25px;
+  background-position: center;
+  color: #fff;
+  @media screen and (max-width: 400px) {
+    margin-left: 150px;
+    width: 300px;
+  }
+}
+
+.footerText {
+  position: relative;
+  background: transparent;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  margin: auto;
+  top: 50px;
+  h2 {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  hr {
+    color: 1px solid gray;
+    width: 10%;
+    height: 2px;
+    margin: 5px auto 10px auto;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 10px;
+    line-height: 2;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+}
+
+.footerInput {
+  border: 1px solid #fff;
+  background: none;
+  width: 250px;
+  margin: 0px auto;
+  border-left: none;
+  border-right: none;
+
+  input {
+    outline: none;
+    width: 80%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+
+    &::placeholder {
+      color: #fff;
+      font-weight: lighter;
+      font-size: 14px;
+    }
+  }
+  button {
+    outline: none;
+    background: none;
+    border: none;
+    margin-left: 22px;
+    color: #fff;
+  }
+}
+
+.footerRight {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  width: 300px;
+  line-height: 2;
+
+  margin: 50px 0px 30px 20px;
+  h1 {
+    letter-spacing: 15px;
+    font-style: italic;
+    margin-bottom: -5px;
+  }
+  h6 {
+    color: rgb(243, 239, 236);
+    font-weight: 400;
+    font-size: 12px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 300px;
+    margin-left: 150px;
+  }
+}
+.footerLinks {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Links {
+  text-decoration: none;
+
+  color: #000;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px auto;
+
+  width: 150px;
+}

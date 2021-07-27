@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { About, Contact, Feature, Home, Shop, Travel } from "./page";
 const App = () => {
   return (
-    <div className="mx-4 my-3 App">
+    <div className="mx-4 mt-3 App">
       <Router>
         <Link className="blogHeader" to="/">
           <h1 className=" display-4 fst-italic">

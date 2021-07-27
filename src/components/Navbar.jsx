@@ -26,20 +26,15 @@ const Navbar = () => {
               <FaIcon.FaShoppingCart className="icon" />
 
               <div className="cartItems">
-                <span>bag</span>
-                <span>shoes</span>
-                <span>plate</span>
-                <span>phone</span>
+                <span>item</span>
+                <span>item</span>
+                <span>item</span>
+                <span>more item</span>
               </div>
             </div>
             <div className="bars">
               <FaIcon.FaBars className="icon" />
-              <div className="iconsMenu">
-                <span>more menu</span>
-                <span>more links</span>
-                <span>more menu</span>
-                <span>more menu</span>
-              </div>
+
             </div>
           </div>
           <div className="mobileNavRight">
